@@ -1,0 +1,34 @@
+ResearchHub automated regression tests
+====================================
+PASS: M1 Naive | expected=15, actual=15
+PASS: M1 KMP | expected=15, actual=15
+PASS: M1 Rabin-Karp | expected=15, actual=15
+PASS: M1 Z-function | expected=15, actual=15
+PASS: M1 missing pattern | expected=-1, actual=-1
+PASS: M1 LCS | expected=8, actual=8
+PASS: M2 suffix array ordering
+PASS: M2 LCP first value | expected=0, actual=0
+PASS: M2 suffix search hit
+PASS: M2 suffix search miss
+PASS: M3 LCS | expected=3, actual=3
+PASS: M3 Wagner-Fischer | expected=1, actual=1
+PASS: M3 edit-distance alias | expected=3, actual=3
+PASS: M3 0/1 knapsack | expected=14, actual=14
+PASS: M4 Ford-Fulkerson | expected=18, actual=18
+PASS: M4 Edmonds-Karp | expected=18, actual=18
+PASS: M4 Dinic | expected=18, actual=18
+PASS: M4 bipartite matching size 2
+PASS: M5 subset sum
+PASS: M5 minimum vertex cover | expected=2, actual=2
+PASS: M5 Hamiltonian cycle
+PASS: M5 CNF generated
+PASS: M6 randomized quicksort
+PASS: M6 reservoir sample deterministic seed | expected=[6, 2, 4], actual=[6, 2, 4]
+PASS: M6 Miller-Rabin prime
+PASS: M6 Miller-Rabin composite
+PASS: M6 Blelloch scan
+PASS: M6 parallel reduce | expected=15, actual=15
+====================================
+Passed: 28
+Failed: 0
+ALL TESTS PASSED

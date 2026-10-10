@@ -1,0 +1,33 @@
+# ResearchHub Performance Evaluation
+Median of 7 timed repetitions after 2 warm-up repetitions.
+Times are environment-dependent and should be treated as comparative evidence, not universal benchmarks.
+
+| Algorithm | Input Size | Median Time (ms) | Complexity |
+|---|---:|---:|---|
+| KMP | 5000 | 0.069 | O(n+m) |
+| Rabin-Karp | 5000 | 0.027 | avg O(n+m) |
+| Z-Function | 5000 | 0.757 | O(n+m) |
+| LCS | 400 | 0.667 | O(nm) |
+| Edit Distance | 400 | 1.362 | O(nm), O(m) space |
+| 0/1 Knapsack | 200 | 0.368 | O(nC) |
+| Suffix Array | 100 | 0.227 | current impl approx O(n^2 log n) |
+| LCP Array | 100 | 0.488 | current impl O(n^2) worst case |
+| Suffix Array | 250 | 0.382 | current impl approx O(n^2 log n) |
+| LCP Array | 250 | 0.860 | current impl O(n^2) worst case |
+| Suffix Array | 500 | 1.028 | current impl approx O(n^2 log n) |
+| LCP Array | 500 | 0.775 | current impl O(n^2) worst case |
+| Edmonds-Karp | 20 | 0.062 | O(VE^2) |
+| Dinic | 20 | 0.053 | O(V^2E) general |
+| Edmonds-Karp | 40 | 0.075 | O(VE^2) |
+| Dinic | 40 | 0.123 | O(V^2E) general |
+| Edmonds-Karp | 80 | 0.133 | O(VE^2) |
+| Dinic | 80 | 0.189 | O(V^2E) general |
+| Randomized QuickSort | 10000 | 0.885 | expected O(n log n) |
+| Blelloch Scan | 16384 | 0.099 | O(n) work, O(log n) span |
+| Parallel Reduce | 10000 | 0.148 | O(n) work, O(log n) span |
+| Randomized QuickSort | 50000 | 1.663 | expected O(n log n) |
+| Blelloch Scan | 65536 | 0.191 | O(n) work, O(log n) span |
+| Parallel Reduce | 50000 | 0.198 | O(n) work, O(log n) span |
+| Randomized QuickSort | 100000 | 3.492 | expected O(n log n) |
+| Blelloch Scan | 131072 | 0.549 | O(n) work, O(log n) span |
+| Parallel Reduce | 100000 | 0.046 | O(n) work, O(log n) span |

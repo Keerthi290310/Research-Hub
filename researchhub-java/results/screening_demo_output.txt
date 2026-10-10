@@ -1,0 +1,68 @@
+Welcome to ResearchHub - intelligent paper screening.
+
+========================================
+             RESEARCHHUB
+========================================
+1. View Research Papers
+2. Submit New Research Paper
+3. Similarity Analysis
+4. Novelty Analysis
+5. Similar Paper Ranking
+6. Research Screening Report
+7. M1 - String Algorithms
+8. M2 - Suffix Structures
+9. M3 - Dynamic Programming
+10. M4 - Network Flow
+11. M5 - NP Completeness
+12. M6 - Randomized & Parallel
+13. Run Complete Screening Demo
+14. Run All DSA Modules
+0. Exit
+========================================
+Select an option: 
+RESEARCH SCREENING REPORT
+----------------------------------------
+Paper Title: Graph Neural Networks for Climate Risk Forecasting
+Author: Dr. Asha Rao (Future Systems Lab)
+
+Similarity Score: 24.43%
+Novelty Score: 88.75%
+
+Most Similar Papers:
+1. Graph Neural Networks for Scientific Discovery [P001] - 24.43%
+2. AI Research Methods for Climate Data [P002] - 10.86%
+3. Data Mining in Science [P003] - 5.20%
+
+New Keywords: climate risk, uncertainty calibration, regional forecasting
+New Concepts: climate risk, uncertainty calibration, regional forecasting, forecasting, propose, calibrated, network, approach, described contribution
+
+Decision: ACCEPT
+Explanation:
+- Similarity is below the configured similarity threshold
+- New concepts identified: climate risk, uncertainty calibration, regional forecasting, forecasting, propose, calibrated, network, approach, described contribution
+- Novelty score is above the 40.00% threshold
+- Meaningful contribution detected
+Status: Added to ResearchHub
+----------------------------------------
+Demo result: the paper passed screening and is now searchable.
+
+========================================
+             RESEARCHHUB
+========================================
+1. View Research Papers
+2. Submit New Research Paper
+3. Similarity Analysis
+4. Novelty Analysis
+5. Similar Paper Ranking
+6. Research Screening Report
+7. M1 - String Algorithms
+8. M2 - Suffix Structures
+9. M3 - Dynamic Programming
+10. M4 - Network Flow
+11. M5 - NP Completeness
+12. M6 - Randomized & Parallel
+13. Run Complete Screening Demo
+14. Run All DSA Modules
+0. Exit
+========================================
+Select an option: Goodbye from ResearchHub.

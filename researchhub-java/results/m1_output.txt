@@ -1,0 +1,51 @@
+Welcome to ResearchHub - intelligent paper screening.
+
+========================================
+             RESEARCHHUB
+========================================
+1. View Research Papers
+2. Submit New Research Paper
+3. Similarity Analysis
+4. Novelty Analysis
+5. Similar Paper Ranking
+6. Research Screening Report
+7. M1 - String Algorithms
+8. M2 - Suffix Structures
+9. M3 - Dynamic Programming
+10. M4 - Network Flow
+11. M5 - NP Completeness
+12. M6 - Randomized & Parallel
+13. Run Complete Screening Demo
+14. Run All DSA Modules
+0. Exit
+========================================
+Select an option: 
+M1 - STRING ALGORITHMS
+Text: research paper screening detects similar concepts
+Pattern: screening
+Naive index: 15
+KMP index: 15
+Rabin-Karp index: 15
+Z-Function index: 15
+LCS length (research, researcher): 8
+
+========================================
+             RESEARCHHUB
+========================================
+1. View Research Papers
+2. Submit New Research Paper
+3. Similarity Analysis
+4. Novelty Analysis
+5. Similar Paper Ranking
+6. Research Screening Report
+7. M1 - String Algorithms
+8. M2 - Suffix Structures
+9. M3 - Dynamic Programming
+10. M4 - Network Flow
+11. M5 - NP Completeness
+12. M6 - Randomized & Parallel
+13. Run Complete Screening Demo
+14. Run All DSA Modules
+0. Exit
+========================================
+Select an option: Goodbye from ResearchHub.
